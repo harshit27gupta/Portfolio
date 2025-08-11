@@ -12,13 +12,14 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import ScrollProgress from '@/components/ScrollProgress'
 import FloatingActionButton from '@/components/FloatingActionButton'
-
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
+    <>
+    <Analytics/>
     <main className="min-h-screen">
       <ScrollProgress />
       <Navigation />
-      
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -36,5 +37,6 @@ export default function Home() {
       <Footer />
       <FloatingActionButton />
     </main>
+    </>
   )
 }
