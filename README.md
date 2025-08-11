@@ -163,26 +163,7 @@ const itemVariants = {
 - `viewport={{ once: true }}`: Ensures animations only play once
 - Staggered animations for lists and grids
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically on every push
-
-### Netlify
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-
-### Other Platforms
-The portfolio can be deployed to any platform that supports Next.js static exports.
-
-## 🔧 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
 
 ## 📦 Dependencies
 
@@ -202,26 +183,5 @@ The portfolio can be deployed to any platform that supports Next.js static expor
 ### Icons
 - **Lucide React** - Beautiful icons
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- [Next.js](https://nextjs.org/) for the amazing framework
-- [Framer Motion](https://www.framer.com/motion/) for smooth animations
-- [Tailwind CSS](https://tailwindcss.com/) for utility-first styling
-- [Lucide](https://lucide.dev/) for beautiful icons
-
----
-
-**Built with ❤️ by Harshit Gupta**
 
 Feel free to use this portfolio as a template for your own projects!
